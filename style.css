@@ -230,10 +230,11 @@ body {
    width: 50%;
    border: none !important;
    box-shadow: none !important;
-   background: rgb(163, 159, 159);
+   background: rgb(110, 102, 102);
    border-radius: 5px;
    padding: 5px;
    cursor: pointer;
+   color: #fffdfd;
 }
 .contact {
    margin-top: 60px;
@@ -245,11 +246,15 @@ body {
    border-radius: 5px;
 }
 .footer textarea {
-   background: rgb(148, 138, 138);
+   background: rgb(114, 102, 102);
    border: none;
    box-shadow: none;
    border-radius: 5px;
    cursor: pointer;
+   resize: none;
+   width: 50%;
+   color: #fdfdfdfd;
+   padding: 5px;
 }
 .contact-info {
    margin-top: 60px;
@@ -264,14 +269,14 @@ body {
    cursor: pointer;
 }
 .contact-info span {
-   color: #eee3e3;
+   color: #fffbfb;
    font-size: 2rem;
    margin: 5px;
    padding: 5px;
 }
 .footer .fa {
    font-size: 3rem;
-   color: #f1d4d4;
+   color: #fffafa;
 }
 .follow-fa {
    background: gray;
@@ -283,7 +288,7 @@ body {
 }
 .footer .copyright {
    text-align: center;
-   font-size: 1rems;
+   font-size: 2rem;
    color: #0c0101;
    margin-top: 45px;
 }
