@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap");
 * {
+   scroll-behavior: smooth;
    margin: 0;
    padding: 0;
    font-family: "Instrument Serif", serif;
@@ -159,13 +160,13 @@ body {
 }
 .feature h2::after {
    content: "";
-   width: 100px;
+   width: 150px;
    height: 3px;
    background: #eb7676;
    position: absolute;
    margin: 5px auto 50px;
    display: block;
-   left: 5%px;
+   left: 3%;
 }
 .feature ul {
    margin-top: 40px;
@@ -187,7 +188,7 @@ body {
    background: #eb7676;
    position: absolute;
    transform: rotate(45deg);
-   top: 12px;
+   top: 18px;
    left: -25px;
    transition: 2s;
 }
@@ -228,8 +229,8 @@ body {
 }
 .footer input {
    width: 50%;
-   border: none !important;
-   box-shadow: none !important;
+   border: none;
+   box-shadow: none;
    background: rgb(110, 102, 102);
    border-radius: 5px;
    padding: 5px;
@@ -280,7 +281,6 @@ body {
 }
 .follow-fa {
    background: gray;
-   padding-left: px;
 }
 .footer hr {
    margin-top: 20px;
@@ -293,8 +293,8 @@ body {
    margin-top: 45px;
 }
 .footer .fa-heart-o {
-   color: red;
-   font-size: 3rem;
+   color: rgb(181, 0, 0);
+   font-size: 2rem;
 }
 /* footer section end  */
 .services,
